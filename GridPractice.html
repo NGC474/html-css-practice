@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .Ex11a {
+                display: grid;
+                grid-template-columns: 200px 75px;
+                margin-bottom: 30px;
+            }
+            
+            .col1 {background-color: skyblue;}
+            .col2 {background-color: brown;}
+            .col3 {background-color: skyblue;}
+            .col4 {background-color: brown;}
+            
+            .Ex11b {
+                display: grid;
+                grid-template-columns: 50px 1fr 75px;
+                margin-bottom: 30px;
+            }
+
+            .Ex11c {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                row-gap: 10px;
+                column-gap: 20px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="Ex11a">
+            <div class="col1">200px</div>
+            <div class="col2">75px</div>
+        </div>
+
+        <div class="Ex11b">
+            <div class="col1">50px</div>
+            <div class="col2">free space</div>
+            <div class="col3">75px</div>
+        </div>
+
+        <div class="Ex11c">
+            <div class="col1">col1</div>
+            <div class="col2">col2</div>
+            <div class="col3">col3</div>
+            <div class="col4">col4</div>
+            <div class="col1">col1</div>
+            <div class="col2">col2</div>
+            <div class="col3">col3</div>
+            <div class="col4">col4</div>
+        </div>
+
+    </body>
+</html>
