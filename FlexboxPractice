@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FlexboxPractice</title>
+    <style>
+      .Color1{background-color: lightblue;}
+      .Color2{background-color: lightcoral;}
+      .Ex12a {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+        
+      }
+
+      .Row1{width: 200px;}
+      .Row2{width: 75px;}
+
+      .Ex12b{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+      }
+
+      .item1{width: 50px;}
+      .item2{flex: 1}
+      .item3 {width: 75px;}
+
+      .Ex12c {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+
+      .Ex12d {
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: gray;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="Ex12a">
+      <div class="Color1 Row1">200px</div>
+      <div class="Color2 Row2">75px</div>
+    </div>
+    <div class="Ex12b">
+      <div class="Color1 item1">50px</div>
+      <div class="Color2 item2">free space</div>
+      <div class="Color1 item3">75px</div>
+    </div>
+    <div class="Ex12c">
+      <div class="Color1">Text1</div>
+      <div class="Color1">Text2</div>
+      <div class="Color1">Text3</div>
+      <div class="Color1">Text4</div>
+    </div>
+    <div class="Ex12d">
+      <div class="Color2">Item1</div>
+      <div class="Color2">Item2</div>
+    </div>
+    </body>
+</html>
